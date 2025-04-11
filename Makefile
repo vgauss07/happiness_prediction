@@ -12,6 +12,6 @@ clean:
 	rm -rf .qodo
 
 check:
-	poetry run flake check src/
+	poetry run flake src/
 
 runner: run clean
