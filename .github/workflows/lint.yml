@@ -1,6 +1,6 @@
 # Github Actions workflow
 
-name: App workflow
+name: Lint Workflow
 
 on:
   push:
@@ -13,7 +13,7 @@ permissions:
 
 jobs:
 
-    build:
+    lint:
       runs-on: ubuntu-latest
 
       steps:
@@ -21,19 +21,8 @@ jobs:
           #  run: git clone https://github.com/vgauss07/happiness_prediction.git .
          uses:
           actions/checkout@v4
-
-       - name: Set up Python 3.12
-         uses: actions/setup-python@v5
-         with:
-          python-version: '3.12'
-
-       - name: Install poetry
-         run: | 
-           curl -sSL https://install.python-poetry.org | python3 - 
-           export PATH=$HOME/.local/bin:PATH
-
-       - name: Install dependencies using poetry
-         run: poetry run make install
+       - name: Build application
+         uses: ./.github/actions/build-application
 
        - name: Lint with flake8
          run: poetry run make check 
