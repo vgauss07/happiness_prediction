@@ -1,0 +1,4 @@
+2025-04-22 12:23:22.523 | INFO     | services.model_inference:load_model:43 - Checking the existence of the model config file:model/rF_db_v1
+2025-04-22 12:25:17.716 | INFO     | services.model_inference:load_model:43 - Checking the existence of the model config file:model/rF_db_v1
+2025-04-22 12:25:17.719 | INFO     | services.model_inference:load_model:53 - Model rF_db_v1 Exists!-> Load Model Configuration File
+2025-04-22 12:25:27.233 | INFO     | services.model_inference:predict:72 - Making Prediction!
