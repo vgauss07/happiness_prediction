@@ -1,0 +1,56 @@
+2025-03-31 23:18:31.759 | INFO     | model.pipeline.preparation:prepare_data:10 - Starting Up the Preprocessing Pipeline
+2025-03-31 23:18:31.760 | INFO     | model.pipeline.collection:load_data_from_db:16 - Extracting Data from the Database
+2025-03-31 23:20:45.218 | INFO     | model.pipeline.preparation:prepare_data:10 - Starting Up the Preprocessing Pipeline
+2025-03-31 23:20:45.218 | INFO     | model.pipeline.collection:load_data_from_db:16 - Extracting Data from the Database
+2025-03-31 23:23:57.250 | INFO     | model.pipeline.preparation:prepare_data:10 - Starting Up the Preprocessing Pipeline
+2025-03-31 23:23:57.251 | INFO     | model.pipeline.collection:load_data_from_db:16 - Extracting Data from the Database
+2025-03-31 23:31:36.569 | INFO     | model.pipeline.preparation:prepare_data:10 - Starting Up the Preprocessing Pipeline
+2025-03-31 23:31:36.570 | INFO     | model.pipeline.collection:load_data_from_db:16 - Extracting Data from the Database
+2025-03-31 23:34:02.615 | INFO     | model.pipeline.preparation:prepare_data:10 - Starting Up the Preprocessing Pipeline
+2025-03-31 23:34:02.615 | INFO     | model.pipeline.collection:load_data_from_db:16 - Extracting Data from the Database
+2025-03-31 23:34:02.713 | INFO     | model.pipeline.preparation:drop_missing_value:27 - Drop Missing Values
+2025-03-31 23:34:02.718 | INFO     | model.pipeline.preparation:encode_country_col:33 - Encode Country Column
+2025-03-31 23:34:02.722 | INFO     | model.pipeline.preparation:drop_country_column:40 - Drop Country Name Column
+2025-03-31 23:34:02.732 | INFO     | model.pipeline.preparation:rename_columns:46 - Rename Columns
+2025-03-31 23:34:02.752 | INFO     | model.pipeline.model:build_model:14 - Starting up Model Building Pipeline
+2025-03-31 23:34:02.752 | INFO     | model.pipeline.preparation:prepare_data:10 - Starting Up the Preprocessing Pipeline
+2025-03-31 23:34:02.752 | INFO     | model.pipeline.collection:load_data_from_db:16 - Extracting Data from the Database
+2025-03-31 23:34:02.816 | INFO     | model.pipeline.preparation:drop_missing_value:27 - Drop Missing Values
+2025-03-31 23:34:02.820 | INFO     | model.pipeline.preparation:encode_country_col:33 - Encode Country Column
+2025-03-31 23:34:02.822 | INFO     | model.pipeline.preparation:drop_country_column:40 - Drop Country Name Column
+2025-03-31 23:34:02.824 | INFO     | model.pipeline.preparation:rename_columns:46 - Rename Columns
+2025-03-31 23:34:02.842 | INFO     | model.pipeline.model:_get_X_y:38 - Defining X and Y variables.
+X vars: ['gdp', 'support', 'healthy', 'freedom', 'corruption']
+y var: score
+2025-03-31 23:34:02.847 | DEBUG    | model.pipeline.model:_train_model:60 - grid_space = {'n_estimators': [100, 200, 300], 'max_depth': [3, 6, 9, 12]}
+2025-03-31 23:35:59.344 | INFO     | model.pipeline.model:_evaluate_model:67 - Evaluating Model Performance Score = 0.9237629503585171
+2025-03-31 23:35:59.429 | INFO     | model.pipeline.model:_save_model:73 - Saving the model:model/models/rF_db_v1
+2025-03-31 23:35:59.551 | INFO     | __main__:main:9 - Running the Application
+2025-03-31 23:35:59.551 | INFO     | model.model_service:load_model:25 - Checking the existence of the model config file:model/models/rF_db_v1
+2025-03-31 23:35:59.551 | INFO     | model.model_service:load_model:35 - Model rF_db_v1 Exists!-> Load Model Configuration File
+2025-03-31 23:35:59.654 | INFO     | model.model_service:predict:41 - Making Prediction!
+2025-03-31 23:35:59.699 | INFO     | __main__:main:13 - Prediction: [4.23231592]
+2025-04-01 18:37:59.041 | INFO     | model.pipeline.preparation:prepare_data:10 - Starting Up the Preprocessing Pipeline
+2025-04-01 18:37:59.043 | INFO     | model.pipeline.collection:load_data_from_db:16 - Extracting Data from the Database
+2025-04-01 18:37:59.125 | INFO     | model.pipeline.preparation:drop_missing_value:27 - Drop Missing Values
+2025-04-01 18:37:59.129 | INFO     | model.pipeline.preparation:encode_country_col:33 - Encode Country Column
+2025-04-01 18:37:59.132 | INFO     | model.pipeline.preparation:drop_country_column:40 - Drop Country Name Column
+2025-04-01 18:37:59.133 | INFO     | model.pipeline.preparation:rename_columns:46 - Rename Columns
+2025-04-01 18:37:59.153 | INFO     | model.pipeline.model:build_model:14 - Starting up Model Building Pipeline
+2025-04-01 18:37:59.154 | INFO     | model.pipeline.preparation:prepare_data:10 - Starting Up the Preprocessing Pipeline
+2025-04-01 18:37:59.154 | INFO     | model.pipeline.collection:load_data_from_db:16 - Extracting Data from the Database
+2025-04-01 18:37:59.215 | INFO     | model.pipeline.preparation:drop_missing_value:27 - Drop Missing Values
+2025-04-01 18:37:59.218 | INFO     | model.pipeline.preparation:encode_country_col:33 - Encode Country Column
+2025-04-01 18:37:59.220 | INFO     | model.pipeline.preparation:drop_country_column:40 - Drop Country Name Column
+2025-04-01 18:37:59.225 | INFO     | model.pipeline.preparation:rename_columns:46 - Rename Columns
+2025-04-01 18:37:59.247 | INFO     | model.pipeline.model:_get_X_y:38 - Defining X and Y variables.
+X vars: ['gdp', 'support', 'healthy', 'freedom', 'corruption']
+y var: score
+2025-04-01 18:37:59.250 | DEBUG    | model.pipeline.model:_train_model:60 - grid_space = {'n_estimators': [100, 200, 300], 'max_depth': [3, 6, 9, 12]}
+2025-04-01 18:39:47.491 | INFO     | model.pipeline.model:_evaluate_model:67 - Evaluating Model Performance Score = 0.9249661960438699
+2025-04-01 18:39:47.571 | INFO     | model.pipeline.model:_save_model:73 - Saving the model:model/models/rF_db_v1
+2025-04-01 18:39:47.651 | INFO     | __main__:main:24 - Running the Application
+2025-04-01 18:39:47.652 | INFO     | model.model_service:load_model:25 - Checking the existence of the model config file:model/models/rF_db_v1
+2025-04-01 18:39:47.652 | INFO     | model.model_service:load_model:35 - Model rF_db_v1 Exists!-> Load Model Configuration File
+2025-04-01 18:39:47.721 | INFO     | model.model_service:predict:41 - Making Prediction!
+2025-04-01 18:39:47.761 | INFO     | __main__:main:36 - Prediction: [4.22323066]
