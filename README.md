@@ -79,8 +79,6 @@ Created by Jeffrey Voke Ojuederhie — feel free to connect or collaborate!
 ## 📚 Table of Contents
 - Features
 
-- Demo
-
 - Getting Started
 
 - How It Works
@@ -91,5 +89,5 @@ Created by Jeffrey Voke Ojuederhie — feel free to connect or collaborate!
 
 - License
 
-Contact
+- Contact
 
