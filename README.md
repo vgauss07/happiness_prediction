@@ -17,7 +17,7 @@ A machine learning project that predicts the happiness score of countries based 
 - License
 
 - Contact
-- 
+
 
 ## ✨ Features
 
