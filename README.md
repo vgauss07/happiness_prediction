@@ -2,6 +2,23 @@
 
 A machine learning project that predicts the happiness score of countries based on factors like GDP, social support, life expectancy, freedom, and more.
 
+
+## 📚 Table of Contents
+- Features
+
+- Getting Started
+
+- How It Works
+
+- Tech Stack
+
+- Contributing
+
+- License
+
+- Contact
+- 
+
 ## ✨ Features
 
 📊 Predicts World Happiness Score based on real-world indicators
@@ -13,6 +30,7 @@ A machine learning project that predicts the happiness score of countries based 
 🌐 Visualize happiness distribution globally
 
 📈 Explainable model with feature importance
+
 
 ## 🚀 Getting Started
 Follow these steps to set up the project locally.
@@ -76,18 +94,4 @@ See LICENSE for more information.
 ## 📬 Contact
 Created by Jeffrey Voke Ojuederhie — feel free to connect or collaborate!
 
-## 📚 Table of Contents
-- Features
-
-- Getting Started
-
-- How It Works
-
-- Tech Stack
-
-- Contributing
-
-- License
-
-- Contact
 
